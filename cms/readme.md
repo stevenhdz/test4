@@ -4,7 +4,7 @@ Inicialmente, la prueba al leerla fue muy buena, con base a CMS que había manej
 
 Ejemplo modelo:
 
-
+![Example](https://raw.githubusercontent.com/stevenhdz/test4/master/cms/Captura%20de%20pantalla%202023-02-16%20a%20la(s)%202.39.16%20a.m..png "Example")
 
 
 Como se inicio la aplicacion:
