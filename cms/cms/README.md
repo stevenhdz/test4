@@ -56,8 +56,10 @@ cd cms
 
 ### all
 
+```http
 GET https://localhost:3001/api/commit/ HTTP/2.0
 Content-type: application/json
+  ```
 
 
 ### one
