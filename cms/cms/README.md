@@ -15,15 +15,13 @@ vue create cms
   
   **Install**
 
+```sh
   npm init -y
-
   npm i express mongoose bcrypt dotenv @hapi/joi nodemon cors fs https method-override morgan axios colors
+  npm run dev
+```
 
-  **Start API:**
-
-   -> npm run dev
-
-  **Crear los ssl/tls**
+  **Importante generar los certificados ssl/tls**
 
     *  openssl genrsa -out key.pem
 
