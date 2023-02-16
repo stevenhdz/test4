@@ -40,3 +40,46 @@ cd cms
   npm install
   npm run lint
   npm run dev
+  
+  
+  
+para las apis la documentacion es :
+
+En la carpeta cliente encontrar los endpoint con sus respectivas URIS 
+
+### all
+
+GET https://localhost:3001/api/commit/ HTTP/2.0
+Content-type: application/json
+
+
+### one
+
+GET https://localhost:3001/api/commit/1 HTTP/2.0
+Content-type: application/json
+
+### update one
+
+PUT https://localhost:3001/api/commit/63ee5cc7a22b045e6c1ba4a0 HTTP/2.0
+Content-type: application/json
+
+{
+    "id": "1",
+    "cms":[]
+}
+
+### delete one
+
+DELETE https://localhost:3001/api/commit/1 HTTP/2.0
+Content-type: application/json
+
+### create
+
+POST https://localhost:3001/api/commit/ HTTP/2.0
+Content-type: application/json
+
+{
+    "id": "1",
+    "cms":[]
+}
+
