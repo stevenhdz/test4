@@ -40,6 +40,7 @@ sass --watch sass:css
     
   ```sh
 vue add pwa
+npm run build && npx http-server dist
 ```
   
     
