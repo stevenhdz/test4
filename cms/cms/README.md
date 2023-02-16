@@ -101,4 +101,7 @@ Content-type: application/json
     "cms":[]
 }
  ```
+ 
+### BD se conecta a un usuario temporal, sin embargo esta con la IP 0.0.0.0 para que puedan hacer uso de la peticiones.
+ 
 
