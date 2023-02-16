@@ -10,6 +10,13 @@ Como se inicio la aplicacion:
 npm install -g @vue/cli
 vue create cms
 ```
+
+  sass: con base a assets base2.scss y la carpeta scss donde tengo todo desglozado para que se apliquen los estilos.
+  
+  ```sh
+sass --watch sass:css
+```
+  
     
   BACKEND: como lo dice la documentacion oficial
   
