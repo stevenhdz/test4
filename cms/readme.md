@@ -6,6 +6,18 @@ Ejemplo modelo:
 
 ![Example](https://raw.githubusercontent.com/stevenhdz/test4/master/cms/Captura%20de%20pantalla%202023-02-16%20a%20la(s)%202.39.16%20a.m..png "Example")
 
+En este ejemplo base vamos a encontrar un boton en la parte inferior derecha donde nos va a permitir crear los componentes con una informacion
+sin embargo cabe destacar que algunos de estos permiten modificarlos de una manera mas dinamica, una vez agregamos un componente a la lista de 10 posiciones el va a queda ubicado sin embargo podra ser movido arrastrandolo, al moverlo se nos desplegara dos botones mas uno de edicion otro de eliminacion, con la finalidad de poder dar ese CRUD de forma sencilla, cada vez que guardarmos o editamos tomaria cambios al refrezcar se notaran los cambios.
+
+Componentes actuales:
+
+```html
+Text -> titulos
+Button -> podras color un enlace ademas del nombre
+Slider -> imagenes separadas por el simbolo , 
+Html -> podras embeber html enriquecido
+image -> podras color una imagen o varias, tener en cuenta que si pone varias se podra dar clic y abrir un visualizador, cuando usar una ejemplo un logo.
+```
 
 Como se inicio la aplicacion:
 
