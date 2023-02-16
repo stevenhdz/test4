@@ -54,7 +54,7 @@ cd cms
   Documentacion de las apis:
   
 
-### all
+### nos permite poder traer toda la informacion
 
 ```http
 GET https://localhost:3001/api/commit/ HTTP/2.0
@@ -62,28 +62,37 @@ Content-type: application/json
   ```
 
 
-### one
+### nos permite poder consultar de a uno
 
+```http
 GET https://localhost:3001/api/commit/1 HTTP/2.0
 Content-type: application/json
+ ```
 
-### update one
+### nos permite poder actualizar de a uno
 
+```http
 PUT https://localhost:3001/api/commit/63ee5cc7a22b045e6c1ba4a0 HTTP/2.0
 Content-type: application/json
 
 {
     "id": "1",
-    "cms":[]
+    "cms":[example]
 }
+ ```
 
-### delete one
 
+### nos permite poder eliminar de a uno
+
+```http
 DELETE https://localhost:3001/api/commit/1 HTTP/2.0
 Content-type: application/json
+ ```
+ 
+ 
+### nos permite crear
 
-### create
-
+```http
 POST https://localhost:3001/api/commit/ HTTP/2.0
 Content-type: application/json
 
@@ -91,4 +100,5 @@ Content-type: application/json
     "id": "1",
     "cms":[]
 }
+ ```
 
