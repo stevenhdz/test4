@@ -136,6 +136,8 @@ Content-type: application/json
     "cms":[]
 }
  ```
+
+### En caso de no consumir las apis bien: si ya tiene el servidor backend arriba seria consumirla desde la URI y autorizar https://localhost:3001/api/commit/
  
 ### BD se conecta a un usuario temporal, sin embargo esta con la IP 0.0.0.0 para que puedan hacer uso de la peticiones.
 
